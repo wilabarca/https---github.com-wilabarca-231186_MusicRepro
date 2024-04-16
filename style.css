@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212; 
+  transition: background-color 1s ease-in-out;
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #1e1e1e; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%; 
+}
+
+.card #audio {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card #title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff; 
+}
+
+.card .controls button {
+  margin-right: 10px;
+  background-color: #262626; 
+  color: #fff;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card .progress_container {
+  height: 20px;
+  background-color: #393939; 
+  border-radius: 4px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.card #progress {
+  height: 100%;
+  background-color: #1ed760;
+}
+
+.card #current_time {
+  margin-top: 10px;
+  color: #fff; 
+}
